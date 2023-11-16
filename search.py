@@ -137,6 +137,7 @@ def depth_first_graph_search(problem):
 
 
 def branch_and_bound_underestimation_search(problem):
+
     search = graph_search(problem, OrderedList(problem))
 
     return search

@@ -1,7 +1,6 @@
 from unittest import TestCase
 import search
 
-
 class TestSearch(TestCase):
     def setUp(self):
         self.ab = search.GPSProblem('A', 'B', search.romania)
